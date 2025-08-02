@@ -42,6 +42,24 @@
             font-size: 1.05rem;
             line-height: 1.6;
         }
+        .most-popular-gradient-border {
+  position: relative;
+  z-index: 1;
+}
+.most-popular-gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 1.25rem;
+  padding: 2px;
+  background: linear-gradient(90deg, #3b82f6, #a21caf);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
     </style>
 </head>
 <body class="bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -365,7 +383,7 @@
                 </div>
 
                 <!-- Package 3 - Full Backend -->
-                <div class="relative bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 transform scale-105" style="backdrop-filter: blur(16px) saturate(180%); background: rgba(255,255,255,0.25); border-radius: 1.25rem; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18); border: 1.5px solid rgba(255,255,255,0.35);">
+                <div class="most-popular-gradient-border relative bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 transform scale-105" style="backdrop-filter: blur(16px) saturate(180%); background: rgba(255,255,255,0.25); border-radius: 1.25rem; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);">
                     <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
                         <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold">Most Popular</span>
                     </div>

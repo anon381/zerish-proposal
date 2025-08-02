@@ -11,7 +11,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              In today's digital age, having a professional website is essential for any business. 
+              In today&apos;s digital age, having a professional website is essential for any business. 
               A website serves as your digital storefront, builds credibility, reaches global customers, 
               and provides 24/7 accessibility to showcase your products and services.
             </p>

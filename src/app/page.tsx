@@ -1,6 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
+import React from "react";
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen w-full px-0 sm:px-0 md:px-0 lg:px-0 py-2 sm:py-4 md:py-8">

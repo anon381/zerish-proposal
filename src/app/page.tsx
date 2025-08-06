@@ -177,7 +177,7 @@ function PackageOne() {
     "No Social Media Integration",
     "No Analytics Dashboard",
     "No Custom Backend",
-    "No API Support",
+    "No API-Support",
     "No Security Features",
     "No Priority Support",
   ];

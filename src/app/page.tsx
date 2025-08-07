@@ -76,7 +76,7 @@ export default function Home() {
               <div className="text-center text-black">
                 <h3 className="text-xl font-bold mb-3">Static Website</h3>
                 <div className="mb-4">
-                  <span className="text-3xl font-bold text-blue-600">ETB 49,999</span>
+                  <span className="text-3xl font-bold text-blue-600">ETB 49,999.99</span>
                   <span className="text-sm">/one-time</span>
                 </div>
                 <ul className="text-left space-y-2 mb-6 text-sm">
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="text-center text-black">
                 <h3 className="text-xl font-bold mb-3">Static + Integration</h3>
                 <div className="mb-4">
-                  <span className="text-3xl font-bold text-blue-600">ETB 79,999</span>
+                  <span className="text-3xl font-bold text-blue-600">ETB 79,999.99</span>
                   <span className="text-sm">/one-time</span>
                 </div>
                 <ul className="text-left space-y-2 mb-6 text-sm">
@@ -130,7 +130,7 @@ export default function Home() {
               <div className="text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Full Backend + API</h3>
                 <div className="mb-4">
-                  <span className="text-3xl font-bold text-blue-600">ETB 119,999</span>
+                  <span className="text-3xl font-bold text-blue-600">ETB 119,999.99</span>
                   <span className="text-gray-500 text-sm">/one-time</span>
                 </div>
                 <ul className="text-left space-y-2 mb-6 text-sm">

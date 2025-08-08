@@ -212,10 +212,10 @@ function PackageTwo() {
     "Payment Gateway Integration",
     "Social Media Integration",
     "Analytics Dashboard",
-    "40 Days Delivery",
+    "Maximum of 40 Days Delivery",
     "Basic Security Features",
-    "Email Support",
-    "Basic Backup",
+    "Email-Support",
+    "Basic-Backup",
   ];
   const noFeatures = [
     "No Custom Backend",
